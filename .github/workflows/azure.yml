@@ -36,7 +36,7 @@ jobs:
           containerAppName: pleuroai-app
           resourceGroup: NIHResource
           imageToBuild: ghcr.io/${{ github.repository }}:${{ github.sha }}
-          targetPort: 5000
+          targetPort: 80
           startCommand: "python app.py"
 
  
