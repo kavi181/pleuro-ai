@@ -1,0 +1,12 @@
+# Ignore environment variables
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings (optional)
+.vscode/
