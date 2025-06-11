@@ -1,29 +1,19 @@
-# 🩺 TPE Assistant - AI-Powered Clinical Decision Support Tool
+# 🩺 PleuroAI Assistant - AI-Powered Clinical Decision Support Tool
 
-This project is developed for the Microsoft Azure Hackathon 2025. The **TPE Assistant** is a clinical support tool designed to assist in diagnosing **Tuberculous Pleural Effusion (TPE)** using machine learning, with guidance provided by GPT-based suggestions.
+This project is developed for the Microsoft Azure Hackathon 2025. The **PleuroAI Assistant** is a clinical support tool designed to assist in diagnosing **Tuberculous Pleural Effusion (TPE) or Malignant Pleural Effusion (MPE)** using machine learning, with guidance provided by GPT-based suggestions.
 
 ## 🔍 Project Overview
 
-The assistant receives a patient's diagnostic input, predicts the likelihood of TPE, and recommends the next clinical steps using GPT (OpenAI) integration.
+The assistant receives a patient's diagnostic input, predicts the likelihood of TPE/MPE, and recommends the next clinical steps using GPT (OpenAI) integration.
 
 ---
-
-## 🔬 Current Scope
-
-This assistant is trained specifically to detect **Tuberculous Pleural Effusion (TPE)**. Cases predicted as **"Not TPE"** may include other pleural effusions such as:
-
-- Malignant Pleural Effusion (MPE)
-- Parapneumonic Effusion
-- Other causes of pleural effusion
-
-However, the system does **not currently differentiate these categories**.
 
 ## 🚀 Future Development
 
 We plan to:
-- Extend the model for **multi-class classification** to include MPE and other pleural diseases
+- Extend the model for **multi-class classification** to include other pleural diseases
 - Enhance GPT prompts for **differential diagnosis**
-- 
+  
 
 ## ⚙️ Tech Stack
 
