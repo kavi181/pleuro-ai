@@ -8,6 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 EXPOSE 5000
+EXPOSE 8501
 
-# Use gunicorn for production (recommended for Azure)
-CMD ["gunicorn", "-b", "0.0.0.0:5000", "app:app"]
+CMD ["supervisord", "-c", "supervisord.conf"]
