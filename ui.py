@@ -44,7 +44,7 @@ if submit_button:
     else:
         with st.spinner("Sending data to PleuroAI Assistant..."):
             try:
-                response = requests.post("http://127.0.0.1:80/predict", json=input_data)
+                response = requests.post("http://127.0.0.1:5000/predict", json=input_data)
 
                 if response.status_code == 200:
                     result = response.json()

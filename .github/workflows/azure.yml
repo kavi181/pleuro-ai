@@ -35,5 +35,5 @@ jobs:
           resourceGroup: NIHResource
           imageToBuild: pleuroai.azurecr.io/pleuroai-app:${{ github.sha }}
           dockerfilePath: Dockerfile
-          targetPort: 80
+          targetPort: 5000
           ingress: external
