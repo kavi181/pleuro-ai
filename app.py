@@ -17,9 +17,10 @@ model = joblib.load("models/pleuroai_model.pkl")
 
 # Azure OpenAI setup
 openai_client = AzureOpenAI(
-    api_key=os.getenv("OPENAI_KEY"),
-    api_version="2023-05-15",
-    azure_endpoint="https://openai-tpe-assistant.openai.azure.com/"
+    api_key=os.getenv("AZURE_OPENAI_KEY"),
+    api_version="2025-01-01-preview",
+    azure_endpoint="https://openai-tpe-assistant.openai.azure.com/",
+    azure_deployment="gpt-4.1"
 )
 
 # Initialize Cosmos DB
