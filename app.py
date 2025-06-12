@@ -74,7 +74,7 @@ def predict():
             )
 
         gpt_response = openai_client.chat.completions.create(
-            model="gpt-35-tpebot",
+            model="gpt-4.1",
             messages=[
                 {"role": "system", "content": "You are a clinical assistant specialized in pleural effusion diagnosis."},
                 {"role": "user", "content": prompt}
